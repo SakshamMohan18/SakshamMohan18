@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(28, 28, 28), rgb(0, 0, 0));
+    height: 9vh;
+    background-image: url(head50.jpg);
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+.shop {
+    position: relative;
+    left: 1806px;
+    bottom: 110px;
+}
+
+.like {
+    position: relative;
+    left: 1845px;
+    bottom: 173px;
+}
+
+
+
+
+.nav p {
+    color: white;
+    font-family: 'Seaweed Script', cursive;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+
+
+
+ul li {
+    display: inline;
+    position: relative;
+    left: 550px;
+    padding: 45px;
+    bottom: 17px;
+}
+
+
+ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Phudu', cursive;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+#searchbar {
+    display: inline;
+    position: relative;
+    left: 1516px;
+    bottom: 50px
+}
+
+#searchbar input {
+
+    height: 35px;
+    width: 270px;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+#searchbar:hover {
+
+    box-shadow: 0px 2px 20px rgb(255, 255, 255);
+}
+
+.Store p {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 1617px;
+    bottom: 114px;
+    padding: 9px;
+}
+
+.Store p a {
+    font-size: 12px;
+    font-family: 'Phudu', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.Store p a:hover {
+    font-weight: bold;
+}
+
+
+
+main {
+    z-index: 1;
+}
+
+.container {
+    background-color: rgb(98, 98, 98);
+    /* background-image: url(funky5.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: auto;
+
+}
+
+.container p {
+    color: white;
+    font-size: 33px;
+    padding: 57px 0px 0px 55px;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.container h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-size: 60px;
+    padding: 0px 45px;
+    color: white;
+}
+
+#img p {
+    color: white;
+}
+
+.container2 {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(55, 0, 0));
+    height: 50vh;
+    width: auto;
+    color: white;
+    padding: 50px;
+}
+
+
+.container2 h2 {
+    font-size: 20px;
+    font-family: initial;
+    text-align: center;
+    padding: 150px 0px 0px 0px;
+    font-family: 'Phudu', cursive;
+
+
+}
+
+.container2 h3 {
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    line-height: 100px;
+}
+
+.container2 p {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.container2 button {
+    font-size: 15px;
+    width: 91px;
+    height: 39px;
+    border-radius: 19px;
+    position: relative;
+    left: 866px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+
+.container2 button:hover {
+    background-color: black;
+}
+
+.container2 button:active {
+    background-color: grey;
+}
+
+
+
+#img {
+    background-image: url('img3.jpg');
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 80vw;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.container4 {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(55, 0, 0));
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 275px 275px 275px;
+    padding: 45px;
+}
+
+.box {
+
+    padding: 16px;
+    background-color: white;
+}
+
+.box p {
+    text-align: left;
+}
+
+.container3 {
+
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+    width: 45vw;
+}
+
+
+.flex {
+    display: flex;
+}
+
+#box1 {
+    background-color: white;
+    height: 66vh;
+    width: 29vw;
+    padding: 20px 20px;
+    margin: 20px 25px 10px 81px;
+}
+
+#box1:hover {
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+}
+
+.text {
+    height: 230px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 9px 85px;
+}
+
+#Fashion {
+    font-size: 74px;
+
+}
+
+#Fashion1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 18px;
+    top: 4px;
+}
+
+#Fashion2 {
+    position: relative;
+    left: 117px;
+    bottom: 48px;
+    font-size: 70px;
+}
+
+.formals {
+    font-family: 'Phudu', cursive;
+    font-size: 20px;
+    height: 70px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(55, 0, 0));
+}
+
+.formals p {
+    position: relative;
+    left: 121px;
+    top: 46px;
+}
+
+.formals h1 {
+    position: relative;
+    left: 1728px;
+    top: -3px;
+}
+
+.formals h1 button {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 7px;
+    height: 25px;
+}
+
+.formals h1 button:active {
+    background-color: grey;
+}
+
+.formals h2 {
+    position: relative;
+    left: 1652px;
+    top: -1020px;
+}
+
+.formals h2 select {
+    height: 28px;
+    width: 125px;
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.formals h2 select:active {
+    background-color: gray;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 275px;
+    grid-gap: 8px 8px;
+    height: 33vh;
+    width: auto;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(55, 0, 0));
+    padding: 10px 1px 1px 124px;
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+}
+
+.trending {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(55, 0, 0));
+    font-family: 'Phudu', cursive;
+
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.trending p {
+    position: relative;
+    left: 107px;
+    top: 27px;
+}
+
+.box4 {
+    position: relative;
+    left: 123px;
+    top: 35px;
+    background-color: white;
+    padding: 10px;
+}
+
+.box5 {
+    position: relative;
+    left: 326px;
+    top: 35px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.container7 {
+    display: grid;
+    grid-template-columns: 723px 723px;
+    grid-template-rows: 720px;
+    height: 85vh;
+    width: auto;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(55, 0, 0));
+
+}
+
+.container6 {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(55, 0, 0));
+
+    height: 60vh;
+    width: auto;
+
+}
+
+.container6 h3 {
+    padding: 120px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 110px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.container6 h2 {
+    color: white;
+    position: relative;
+    top: -38px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.container6 p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    position: relative;
+    bottom: 40px;
+}
+
+.container6 button {
+    font-size: 20px;
+    position: relative;
+    left: 44.2vw;
+    bottom: 5px;
+    height: 54px;
+    width: 221px;
+    top: -21px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container6 button:hover {
+    background-color: black;
+}
+
+.container6 button:active {
+    background-color: rgb(112, 112, 112);
+}
+
+.container8 {
+    background-color: rgb(223, 240, 255);
+    height: 50vh;
+    width: auto;
+    padding: 20px;
+}
+
+.container8 h1 {
+    padding: 60px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 110px;
+    color: rgb(27, 27, 27);
+
+}
+
+.container8 h2 {
+    color: rgb(27, 27, 27);
+    position: relative;
+    top: -38px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.container8 p {
+    color: rgb(27, 27, 27);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    position: relative;
+    bottom: 40px;
+}
+
+.container8 button {
+    font-size: 20px;
+    position: relative;
+    left: 38vw;
+    bottom: 5px;
+    height: 55px;
+    width: 423px;
+    top: -10px;
+    background-color: rgb(223, 240, 255);
+    text-decoration: none;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container8 button:hover {
+    background-color: rgb(184, 222, 255);
+}
+
+.container8 button:active {
+    background-color: rgb(93, 179, 255);
+}
+
+.container11 {
+    height: 8vh;
+    background-color: white;
+}
+
+.container11 p {
+    color: black;
+    padding: 48px 0px 2px 121px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Phudu', cursive;
+}
+
+.container9 {
+    display: grid;
+    grid-template-columns: 27.7vw 29vw 27.7vw;
+    grid-template-rows: 78vh;
+    grid-gap: 47px;
+    justify-content: center;
+    padding: 0px;
+    background-color: white;
+    height: 85vh;
+
+}
+
+.container9 .box:hover {
+    /* box-shadow: 0px 2px 1px 1px rgb(0, 0, 0); */
+    box-shadow: 0 4px 8px 0 rgb(139, 139, 139);
+}
+
+
+.join {
+    height: 70px;
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.join p {
+    padding: 20px 0px 0px 0px;
+}
+
+.container10 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(58, 58, 58);
+    height: 45vh;
+    width: auto;
+}
+
+
+.inf h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.inf p {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-family: 'Phudu', cursive;
+}
+
+.end {
+    display: grid;
+    grid-template-columns: 370px 370px 370px 370px 226px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 30vh;
+    width: auto;
+}
+
+.unit h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 46px 46px 5px 46px;
+    font-size: 30px
+}
+
+.unit p {
+    font-family: 'Phudu', cursive;
+    font-size: 15px;
+    padding: 6px 46px;
+}
+
+.unit a {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+}
+
+.unit a:hover {
+    /* font-weight: bold; */
+    color: white;
+}
+
+.privacy {
+    color: white;
+    background-color: rgb(12, 12, 12);
+    height: 40px;
+
+}
+
+.privacy p {
+    font-size: 15px;
+    height: 30px;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 755px;
+    top: 8px;
+}
+
+.privacy a {
+    text-decoration: none;
+    color: white;
+}
+
+.privacy a:hover {
+    font-weight: bold;
+}
+
+.copyright p {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    height: 40px;
+    text-align: center;
+    padding: 17px 0px 0px 0px;
+}
