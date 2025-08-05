@@ -1,4 +1,4 @@
-![logo]((https://github.com/SakshamMohan18/SakshamMohan18/blob/main/lindinB.png))
+![logo](https://github.com/SakshamMohan18/SakshamMohan18/blob/main/lindinB.png)
 <h1 align="center">Hi 👋, I'm Saksham Mohan</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
